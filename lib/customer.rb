@@ -18,4 +18,6 @@ class Customer
     Meal.new(waiter, self, total, tip)
   end
 
+  def meals
+    Meal.all.each { |meal| meal.customer == self }
 end
