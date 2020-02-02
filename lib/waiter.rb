@@ -27,7 +27,7 @@ class Waiter
   end
 
   def best_tipper
-    self.meals.find_max { |meal| meal.tip }
+    self.meals.max { |meal| meal.tip }
   end
 
 end
