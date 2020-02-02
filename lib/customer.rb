@@ -20,4 +20,6 @@ class Customer
 
   def meals
     Meal.all.each { |meal| meal.customer == self }
+  end
+
 end
