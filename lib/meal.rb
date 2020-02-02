@@ -1,5 +1,5 @@
 class Meal
-  attr_accessor :tip
+  attr_accessor :tip, :total
 
   @@all = []
 
