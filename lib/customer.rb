@@ -19,7 +19,7 @@ class Customer
   end
 
   def meals
-    Meal.all.each { |meal| meal.customer == self }
+    Meal.all.select { |meal| meal.customer == self }
   end
 
 end
