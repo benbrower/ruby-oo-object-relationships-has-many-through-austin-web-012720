@@ -1,5 +1,5 @@
 class Meal
-  attr_accessor :tip, :total, :waiter
+  attr_accessor :tip, :total, :waiter, :customer
 
   @@all = []
 
